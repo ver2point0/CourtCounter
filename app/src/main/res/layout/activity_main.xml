@@ -12,30 +12,31 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
-        android:text="Team A"/>
+        android:text="@string/team_a"/>
 
     <TextView
+        android:id="@+id/team_a_score"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:padding="4dp"
-        android:text="0"/>
+        android:text="@string/_0"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="+3 Points"/>
+        android:text="@string/_3_points"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="+2 Points"/>
+        android:text="@string/_2_points"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Free Throw"/>
+        android:text="@string/free_throw"/>
 </LinearLayout>
