@@ -26,17 +26,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/_3_points"/>
+        android:text="@string/_3_points"
+        android:onClick="addThreePoints"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/_2_points"/>
+        android:text="@string/_2_points"
+        android:onClick="addTwoPoints"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="@string/free_throw"/>
+        android:text="@string/free_throw"
+        android:onClick="addOnePoint"/>
 </LinearLayout>
